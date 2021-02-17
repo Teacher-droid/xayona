@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #e9e9e9;
+}
+ 
+header {
+    height: 100px;
+}
+
+header > div {
+    width: 400px;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header div a {
+    text-decoration: none;
+    color: gray;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+header h1 {
+    color: #6d6d70;
+    font-size: 3em;
+    font-weight: bold;
+    margin: 12px;
+}
+
+main div:nth-child(1) > a {
+    background-color: white;
+    display: block;
+    padding-bottom: 1em;
+    text-decoration: none;
+    color: gray;
+}
+
+.btnPlus {
+    padding: 0px 15px 0px 15px;
+    margin-top: 20px;
+    box-shadow: 1px -7px 5px -6px #222;
+}
+
+.borderGray {
+    border-top: 1px solid lightgray;
+}
+
+.bgcWhite {
+    background-color: white;
+}
+
+.borderRadius {
+    border-radius: 5px;
+}
+
+.padding10 {
+    padding: 10px;
+}
+
+.paddingTop1 {
+    padding-top: 1em;
+}
+
+.paddingTop2 {
+    padding-top: 2em;
+}
+
+.paddingBot2 {
+    padding-bottom: 2em;
+}
+
+.paddingService {
+    padding: 0 2em 2em 2em;
+}
+
+.paddingService h2 {
+    color: #f88926;
+}
+
+.colorOrange {
+    color: #f88926;
+}
+
+.marginTopNegative10 {
+    margin-top: -10px;
+}
+
+.width-container-900 {
+    width: 900px;
+    margin: auto;
+}
+
+.dFlex {
+    display: flex;
+}
+
+.spaceAround {
+    justify-content: space-around;
+}
+
+.spaceBetween {
+    justify-content: space-between;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+.decorationNone {
+    text-decoration: none;
+}
+
+.colorGray {
+    color: gray;
+}
+
+.itemCenter {
+    align-items: center;
+}
+
+.contentCenter {
+    align-content: center;
+}
+
+.marginRight40 {
+    margin-right: 40px;
+}
+
+.fontSize12 {
+    font-size: 12px;
+}
+
